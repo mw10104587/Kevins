@@ -4,6 +4,8 @@
 
 #cover {
 	width: 100%;
+
+	position: relative;
 }
 
 .cover-layer {
@@ -36,8 +38,12 @@
 	left: 0;
 	width: 100%;
 	background-color: rgba(168, 174, 186, 0.8);
-	margin-top: 546px;
+	/*margin-top: 546px;*/
 	padding: 10px 0 20px 0;
+
+	height: 100px;
+	position: absolute;
+	bottom: 0px;
 }
 
 .filter-name {
