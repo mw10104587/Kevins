@@ -45,7 +45,7 @@ var Kevin = React.createClass({
     render: function() {
         	
     	var kevinInfo = this.props.info;
-    	console.log(kevinInfo);
+    	// console.log(kevinInfo);
 
     	var displayNoneStyle = {
 			display: 'none',
@@ -187,8 +187,15 @@ for (var i = 0; i < 10; i++) {
 	});
 };
 
+d3.csv("data/kevin-data.csv", function(data){
 
-ReactDOM.render(
-	<Kevins data= {fakeData}/>,
-    document.getElementById('kevin-list')
-);
+	console.log(data);
+	ReactDOM.render(
+		<Kevins data= {data}/>,
+	    document.getElementById('kevin-list')
+	);
+
+});
+
+
+

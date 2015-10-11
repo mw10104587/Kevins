@@ -1,0 +1,33 @@
+name,bank_name,Branch,Language,address,service_tags,profile,phone,email,stars
+Ning Lee,City Bank,BRANCH- 0.08 miles,Chinese,"City Hall
+250 Broadway
+New York, NY 10007","Mortgage Services, Foreign Exchange, Foreign Currency, Official Checks, Home Equity Sales, Business Banking",,(646) 502-4187,ninglee@citybank.com,4
+Anna Basile ,Capital One,17th & 8th,Italian,"144 8th Ave.
+NEW YORK , NY 10011","Foreign Currency, Official Checks, Wire/Money Transfer (Domestic), Wire/Money Transfer (International),Counter Checks",,(212) 255-6014,ab145@capitalone.com,5
+Cande Castillo,Chase,Whitestone,Spanish,"153-15 Cross Island Pkwy 
+Whitestone, NY 11357
+","Wire/Money Transfer (Domestic), Wire/Money Transfer (International), Counter Checks, Express Deposit Box, Business Banking Teller/Merchant Teller, Notary Public",,(718) 352-1747,ccas@chase.com,5
+Adalia Flores,City Bank,BRANCH - 0.39 miles,Chino,"ATM 7ELEVEN, INC.
+140 CHURCH ST
+NEW YORK, NY 10007","Mortgage Services, Foreign Exchange, Wire/Money Transfer (Domestic), Wire/Money Transfer (International), Counter Checks, Business Banking, Business Banking Teller/Merchant Teller",,(917) 746-4475,adfl@citybank.com,3
+Bora Gyeong,Bank of America,266 Broadway - Willamsburg,Korean,"266 Broadway
+Brooklyn, NY 11211 US","Foreign Exchange, Foreign Currency, Official Checks, Counter Checks, Express Deposit Box, Home Equity Sales, Business Banking, Business Banking Teller/Merchant Teller, Notary Public",,(718) 384-5763,borag@bankofamerica.com,5
+Ana Ramos,HSBC,UNION SQUARE OFFICE ,Chino,"15 UNION SQUARE WEST
+NEW YORK, NY 10003
+1.800.975.HSBC (4722)","Foreign Currency, Official Checks, Wire/Money Transfer (Domestic), Home Equity Sales, Business Banking, Business Banking Teller/Merchant Teller",,(800) 975-4722,ar111@hsbc.com,4
+Kuan-Yu Liu,Chase,Downtown Flushing,Chinese,"39-01 Main St 
+Flushing, NY 11354
+","Foreign Exchange, Foreign Currency, Official Checks, Counter Checks, Express Deposit Box",,(718) 463-0688,kyliu@chase.com,1
+Seul-Ki Jin,Chase,College Point,Korean,"132-01 14th Ave 
+College Point, NY 11356","Foreign Exchange, Foreign Currency, Official Checks, Home Equity Sales, Business Banking, Business Banking Teller/Merchant Teller",,(718) 767-3592,skjin@chase.com,5
+Agapito Hierro,City Bank,BRANCH - 0.59 miles,Spanish,"388 Greenwich St.
+388 Greenwich Street
+New York, NY 10013","Foreign Exchange, Foreign Currency, Official Checks, Counter Checks, Express Deposit Box",,(917) 746-4466,ahierro@citybank.com,4
+Yi-Ling Huang,Capital One,23rd Street ,Chinese,"120 WEST 23RD ST
+NEW YORK , NY 10011","Wire/Money Transfer (Domestic), Wire/Money Transfer (International), Counter Checks, Express Deposit, BoxBusiness Banking, Business Banking Teller/Merchant Teller, Notary Public",,(212) 414-0202,ylhuang@capitalone.com,2
+Alexander Grekov,HSBC,HERALD SQUARE ,Russian,"1350 BROADWAY
+NEW YORK, NY 10018","Mortgage Services, Investment Services, Home Equity Sales, Business Banking, Business Banking, Teller/Merchant Teller, Notary Public, Safe Deposit Services",,(800) 975-4722,alexanderg@hsbc.com,5
+Mathilde Cousineau,Bank of America,Grand Street,French,"318 Grand St
+New York, NY 10002 US","Counter Checks, Express Deposit Box, Home Equity Sales, Business Banking, Business Banking, Teller/Merchant Teller, Notary Public",,(800) 432-1000,mcousine@bankofamerica.com,5
+Antonio Donati ,Capital One,32nd & Park,Italian,"470 PARK AVE SOUTH
+NEW YORK , NY 10016","Official Checks, Wire/Money Transfer (Domestic), Wire/Money Transfer (International), Counter Checks, Notary Public, Safe Deposit Services, Savings Bond Redemption",,(212) 679-1140,antoniod@capitalone.com,1
