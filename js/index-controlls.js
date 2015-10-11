@@ -15,7 +15,7 @@ $(document).ready(function(){
 				}else if( st < targetH){
 					$("#filters-container").removeClass("fixed");
 				}else{
-					console.log("hello");
+					// console.log("hello");
 				}
 			});
 

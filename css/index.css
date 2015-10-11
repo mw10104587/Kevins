@@ -185,8 +185,22 @@
 
 .comments-wrap {
 	margin-top: 5px;
+	padding-right: 24px;
 }
 
 .comment-title {
 	font-weight: 700;
+	font-size: 1.2em;
+}
+
+.comment:first-child{
+	border-top-width: 0px; 
+}
+
+.comment {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.12);
+    border-top-width: 1px;
 }
