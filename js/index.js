@@ -233,7 +233,7 @@ var Branch = React.createClass({
 
 var Address = React.createClass({
 	render: function(){
-		return (<div className="address">{this.props.address}</div>);
+		return (<a className="address" href={"http://www.google.com/maps/place/"+this.props.address} target="_blank">{this.props.address}</a>);
 	}
 })
 
