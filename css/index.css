@@ -107,8 +107,8 @@
 
 .share-wrap{
 	position: absolute;
-	right: 0px;
-	top: 0px;
+	right: 10px;
+	top: 10px;
 }
 
 
@@ -122,9 +122,25 @@
 	width: 20px;
 }
 
+.working-days{
+	display: table;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 .workday{
-	width: 20px;
-	height: 20px;
+	width: 22px;
+	height: 22px;
 	float: left;
     text-align: center;
+    border-style: solid;
+    border-width: 1px;
 }
+
+.fixed{
+	position:fixed  !important; 
+	top:0; left:0; z-index:2; width:100%;
+	margin-top: 0px !important;
+	background-color: rgba(168, 174, 186, 1) !important;
+}
+
