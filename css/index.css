@@ -1,14 +1,74 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+#cover {
+	width: 100%;
+}
+
+.cover-layer {
+	position: absolute;
+	left: 100px;
+}
+
+#cover-logo {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+#cover-logo > img {
+	padding: 10px;
+	background-color: white;
+}
+
+#cover-upper > h2 {
+	/*background-color: red;*/
+	font-size: 32px;
+	color: white;
+	text-shadow: 1px 1px 1px #444;
+}
+
 #logo-img{
 	height: 100%;
 }
 
-#filters-wrap{
-	height: 54px;
+#filters-container {
+	left: 0;
+	width: 100%;
+	background-color: rgba(168, 174, 186, 0.8);
+	margin-top: 546px;
+	padding: 10px 0 20px 0;
+}
+
+.filter-name {
+	font-size: 16px;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 8px;
 }
 
 .filter{
-	width: 25%;
+	width: 20%;
 	float: left;
+}
+
+#filter-prompt {
+	color: white;
+	font-weight: 700;
+	margin: 10px 0;
+	text-decoration: underline;
+}
+
+#btn-filter-confirm {
+	background-color: red;
+	float: left;
+	padding: 10px 20px;
+	font-weight: 700;
+	color: white;
+	background-color: #586178;
+	border-radius: 3px;
+	margin-top: 22px;
+	font-size: 16px;
 }
 
 #kevin-list{
@@ -18,11 +78,15 @@
 }
 
 .kevin{
+	padding: 20px 10px;
 	display: table;
 	margin-bottom: 20px;
 	position: relative;
 
 	cursor: pointer;
+
+	box-shadow: 2px 2px 2px #888;
+	background-color: #ececec;
 }
 
 .kevin-profile{
@@ -46,6 +110,7 @@
 	right: 0px;
 	top: 0px;
 }
+
 
 .star-bar{
 	position: absolute;
