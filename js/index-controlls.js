@@ -6,7 +6,10 @@ $(document).ready(function(){
 				var st = $(this).scrollTop();
 				// console.log($(this).scrollTop());
 
-				var targetH = 546;
+				// var targetH = 546;
+				var targetH = $("#cover").height() - $("#filters-container").outerHeight(true);
+
+				console.log(targetH);
 
 				if ( st > targetH ) {
 					$("#filters-container").addClass("fixed");
