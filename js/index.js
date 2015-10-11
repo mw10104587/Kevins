@@ -6,8 +6,6 @@
 var Kevins = React.createClass({
 	render: function(){
 
-		console.log("= =");
-
 		var kevins = [];
 
 		for (var i = 0; i < this.props.data.length; i++) {
@@ -25,7 +23,7 @@ var Kevins = React.createClass({
 	componentDidMount: function(){
 
 		console.log("Kevins is rendered");
-		// set onclick listener for Kevin
+		// set onclick listener for Kevin, expand the detail of banker
 		$(".kevin").click(function(){
 
 			// check whether the expand block inside is blocked?
@@ -37,6 +35,15 @@ var Kevins = React.createClass({
 			}
 
 		});
+
+		// set onclick listener for apply button
+		$("#apply-filter").click(function(){
+
+			// tackling the language first.
+			filterKevinsWith("Chinese");
+
+		});
+
 
 	}
 });
@@ -51,7 +58,7 @@ var Kevin = React.createClass({
 			display: 'none',
 		};
 
-        return (<div className="kevin closed">
+        return (<div className="kevin closed" data-language={kevinInfo.language}>
         			<Profile profile={kevinInfo.profile} />
         			<div className="profile-right">
 	        			<Name name={kevinInfo.name} />
@@ -60,13 +67,80 @@ var Kevin = React.createClass({
 	        			<Branch branch={kevinInfo.branch} />
 	        			<div className="expand" style={displayNoneStyle}>
 		        			<ServiceTags serviceString={kevinInfo.service_tags} />
+		        			<WorkingDays />
 		        			<Phone phone={kevinInfo.phone} />
 		        			<Email email={kevinInfo.email} />
-		        			<StarBar stars={kevinInfo.stars} />
+		        			<FacebookShare />
+
+		        			<Comments commentsString={kevinInfo.comment} />
 		        		</div>
 	        		</div>
     			</div>);
     }
+});
+
+
+var WorkingDays = React.createClass({
+
+	render: function(){
+
+		var sevenDays = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"];
+		var workingDays = [];
+
+		for (var i = 0; i < sevenDays.length; i++) {
+			if (Math.random() > 0.5) {
+				workingDays.push(<WorkingDay workday={sevenDays[i]} />);
+			};
+		};
+
+		return (
+			<div className="working-days">{workingDays}</div>
+		);
+	}
+
+});
+
+var WorkingDay = React.createClass({
+
+	render: function(){
+		return (<div className="workday">{this.props.workday}</div>);
+	}
+
+});
+
+var FacebookShare = React.createClass({
+
+	render: function(){
+		return (
+			<div className="share-wrap">
+				<div className="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>
+			</div>);
+	}
+
+});
+
+var Comments = React.createClass({
+
+	render: function(){
+		var comments = this.props.commentsString.split("|");
+		comments = comments.map(function(comment){
+			return <Comment comment={comment} />
+		});
+		// console.log(comments);
+		return (<div className="comments-wrap">
+					<div className="comment-title">Comments</div>
+					{comments}
+				</div>);
+	}
+
+});
+
+var Comment = React.createClass({
+
+	render: function(){
+		return (<div className="comment">{this.props.comment}</div>);
+	}
+
 });
 
 var StarBar = React.createClass({
@@ -146,7 +220,7 @@ var Email = React.createClass({
 var Profile = React.createClass({
 	render: function(){
 		return (<div className="kevin-profile">
-					<img className="profile-img" src={this.props.profile} />
+					<img className="profile-img" src={"img/profiles/" + this.props.profile} />
       			</div>);
 	}
 });
@@ -187,7 +261,7 @@ for (var i = 0; i < 10; i++) {
 	});
 };
 
-d3.csv("data/kevin-data.csv", function(data){
+d3.csv("data/kevin-data-4.csv", function(data){
 
 	console.log(data);
 	ReactDOM.render(

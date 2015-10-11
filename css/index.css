@@ -41,6 +41,12 @@
 }
 
 
+.share-wrap{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
 .star-bar{
 	position: absolute;
     right: 0px;
@@ -49,4 +55,11 @@
 
 .star{
 	width: 20px;
+}
+
+.workday{
+	width: 20px;
+	height: 20px;
+	float: left;
+    text-align: center;
 }
