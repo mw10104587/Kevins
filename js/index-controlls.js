@@ -9,8 +9,6 @@ $(document).ready(function(){
 				// var targetH = 546;
 				var targetH = $("#cover").height() - $("#filters-container").outerHeight(true);
 
-				console.log(targetH);
-
 				if ( st > targetH ) {
 					$("#filters-container").addClass("fixed");
 					// $("#map").css({marginTop: anchorHeight}).after($("#fake-scroll"));

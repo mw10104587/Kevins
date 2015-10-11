@@ -68,7 +68,7 @@
 	text-decoration: underline;
 }
 
-#btn-apply-filter 
+#btn-apply-filter{
 	cursor: pointer;
 	background-color: red;
 	float: left;
