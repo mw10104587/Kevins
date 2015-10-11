@@ -271,5 +271,9 @@ d3.csv("data/kevin-data-4.csv", function(data){
 
 });
 
-
+$(function() {
+	$('#btn-apply-filter').click(function() {
+		filterKevinsWith('Chinese');
+	});
+});
 
