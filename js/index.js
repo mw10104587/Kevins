@@ -186,7 +186,7 @@ var ServiceTags = React.createClass({
 var ServiceTag = React.createClass({
 
 	render: function(){
-		return (<button className="btn btn-default" type="submit">{this.props.tag}</button>);
+		return (<button className="" type="submit">{this.props.tag}</button>);
 	}
 
 });
@@ -206,13 +206,13 @@ var Bank = React.createClass({
 
 var Phone = React.createClass({
 	render: function(){
-		return (<div className="kevin-phone">{this.props.phone}</div>);
+		return (<div className="kevin-phone">{"電話: " + this.props.phone}</div>);
 	}
 });
 
 var Email = React.createClass({
 	render: function(){
-		return (<div className="kevin-email">{this.props.email}</div>);
+		return (<div className="kevin-email">{"電郵: " + this.props.email}</div>);
 	}
 });
 
@@ -227,13 +227,13 @@ var Profile = React.createClass({
 
 var Branch = React.createClass({
 	render: function(){
-		return (<div className="branch">{this.props.branch}</div>);
+		return (<div className="branch">{"分行:" + this.props.branch}</div>);
 	}
 });
 
 var Address = React.createClass({
 	render: function(){
-		return (<a className="address" href={"http://www.google.com/maps/place/"+this.props.address} target="_blank">{this.props.address}</a>);
+		return (<a className="address" href={"http://www.google.com/maps/place/"+this.props.address} target="_blank">{"地址: " + this.props.address}</a>);
 	}
 })
 

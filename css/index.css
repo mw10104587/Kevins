@@ -25,9 +25,12 @@
 
 #cover-upper > h2 {
 	/*background-color: red;*/
-	font-size: 32px;
+	font-size: 2.5em;
 	color: white;
 	text-shadow: 1px 1px 1px #444;
+	background-color: rgba(168, 174, 186, 0.8);
+	display: table;
+	padding: 7px;
 }
 
 #logo-img{
@@ -85,7 +88,7 @@
 }
 
 .kevin{
-	padding: 20px 10px;
+	padding: 15px 10px;
 	display: table;
 	margin-bottom: 20px;
 	position: relative;
@@ -94,6 +97,13 @@
 
 	box-shadow: 2px 2px 2px #888;
 	background-color: #ececec;
+
+	border-radius: 2px;
+}
+
+.kevin-name {
+	font-weight: 700;
+	font-size: 1.2em;
 }
 
 .kevin-profile{
@@ -115,7 +125,7 @@
 .share-wrap{
 	position: absolute;
 	right: 10px;
-	top: 10px;
+	top: 20px;
 }
 
 
@@ -136,12 +146,16 @@
 }
 
 .workday{
-	width: 22px;
-	height: 22px;
+	width: 28px;
+	height: 28px;
 	float: left;
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
+    /*border-style: solid;*/
+    line-height: 24px;
+    color: white;
+    background-color: #444;
+    padding: 2px;
+    margin-right: 2px;
 }
 
 .fixed{
@@ -151,3 +165,28 @@
 	background-color: rgba(168, 174, 186, 1) !important;
 }
 
+.service-tags > button {
+	margin: 2px;
+	padding: 3px 5px;
+	border: none;
+	border-radius: 3px;
+	background-color: #586178;
+	color: white;
+}
+
+.service-tags > button:hover() {
+	margin: 2px;
+	padding: 3px 5px;
+	border: none;
+	border-radius: 3px;
+	background-color: #586178;
+	color: white;
+}
+
+.comments-wrap {
+	margin-top: 5px;
+}
+
+.comment-title {
+	font-weight: 700;
+}
