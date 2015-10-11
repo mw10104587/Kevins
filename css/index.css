@@ -1,0 +1,52 @@
+#logo-img{
+	height: 100%;
+}
+
+#filters-wrap{
+	height: 54px;
+}
+
+.filter{
+	width: 25%;
+	float: left;
+}
+
+#kevin-list{
+	display: table;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.kevin{
+	display: table;
+	margin-bottom: 20px;
+	position: relative;
+
+	cursor: pointer;
+}
+
+.kevin-profile{
+	float: left;
+	height: 80px;
+}
+
+.profile-img{
+	height: 100%;
+}
+
+.profile-right{
+	float: left;
+	width: 530px;
+	margin-left: 20px;
+}
+
+
+.star-bar{
+	position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.star{
+	width: 20px;
+}
