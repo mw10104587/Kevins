@@ -59,6 +59,10 @@
 	text-decoration: underline;
 }
 
+#btn-filter-confirm{
+	cursor: pointer;
+}
+
 #btn-filter-confirm {
 	background-color: red;
 	float: left;

@@ -19,8 +19,6 @@ $(document).ready(function(){
 			});
 
 
-
-
 	// drop down stuff
 	$(".filter").find(".dropdown-menu").find("li").click(function(){
 
