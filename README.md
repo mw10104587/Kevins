@@ -20,7 +20,7 @@ tools:
 - bootstrap
 - react.js
 
-Story
+Story:
 When I first arrive in the New York City, I didn't know where I should open up my bank account. My English wasn't fluent enough, and I am not sure about their difference. After my colleagues introduced me an agent -- Kevin -- who services at a Chase bank branch around 84 Street, I decided to open up my account there. Despite I have several Chase banks near my home in 34 Street, I still wanted to go, because I believe people who speaks Mandarin could explain way much better, also it was recommended by my friend. 
 
 I feel lucky to be infored by my friend. Unfortunately, not every one have the resource or connections to get this information. Instead of telling people which bank to go to in the future, we hope that people can tell their friends who have banking needs, "use the Application Kevin!"
